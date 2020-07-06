@@ -1,5 +1,5 @@
-#### Iris Web Framework MVC目录结构
-iris框架mvc目录结构整理
+#### Iris Web Framework
+iris框架
 
 ##### 目录结构介绍
 ```

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hqd888/demo_iris/web/controllers"
+	"github.com/hqd888/iris-example/web/controllers"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
 )

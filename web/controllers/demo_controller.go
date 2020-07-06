@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/hqd888/demo_iris/repositories"
-	"github.com/hqd888/demo_iris/services"
+	"github.com/hqd888/iris-example/repositories"
+	"github.com/hqd888/iris-example/services"
 	"github.com/kataras/iris/mvc"
 )
 
