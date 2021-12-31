@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"github.com/hqd888/iris-example/repositories"
-	"github.com/hqd888/iris-example/services"
+	"fmt"
 	"github.com/kataras/iris/mvc"
+	"iris-exam/repositories"
+	"iris-exam/services"
 )
 
 type DemoController struct {
@@ -13,6 +14,7 @@ func (c *DemoController) Get() mvc.View {
 	demoRepository := repositories.NewDemoManager()
 	demoService := services.NewDemoServiceManager(demoRepository)
 	result := demoService.ShowDemoName()
+	fmt.Println(result)
 
 	return mvc.View{
 		Name: "demo/index.html",

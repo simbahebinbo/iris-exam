@@ -1,15 +1,15 @@
 package main
 
 import (
-	"github.com/hqd888/iris-example/web/controllers"
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
+	"iris-exam/web/controllers"
 )
 
 func main() {
 	app := iris.New()
 	app.Logger().SetLevel("debug")
-	template := iris.HTML("./web/views", ".html").Layout("layout/layout.html").Reload(true)
+	template := iris.HTML("./web/views", ".html").Reload(true)
 	app.RegisterView(template)
 	app.StaticWeb("/public", "./web/public")
 

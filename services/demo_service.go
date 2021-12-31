@@ -3,7 +3,7 @@ package services
 import (
 	"fmt"
 
-	"github.com/hqd888/iris-example/repositories"
+	"iris-exam/repositories"
 )
 
 type DemoService interface {

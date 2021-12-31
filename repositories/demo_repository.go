@@ -1,6 +1,6 @@
 package repositories
 
-import "github.com/hqd888/iris-example/datamodels"
+import "iris-exam/datamodels"
 
 type DemoRepository interface {
 	GetDemoName() string
